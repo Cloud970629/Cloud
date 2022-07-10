@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>请联系我</Title>
+</head>
+
+<body>
+    <div style="color:red;">
+        <h1>联络方式</h1>
+    </div>
+    <table style="width: 100%;">
+        <tr>
+            <th>联络方式</th>
+            <th>您可以找到我</th>
+        </tr>
+
+        <tr>
+            <td>wechat</td>
+            <td>614347289</td>
+        </tr>
+
+        <tr>
+            <td>QQ</td>
+            <td>614347289</td>
+        </tr>
+    </table>
+    <br>
+    <input type="text" value="留下你的联系方式">
+    <!-- <input type="button" name="离开" value="离开" onclick="document.close();"/> -->
+
+    <p><a href="Aboutme.html"> 返回主页</a></p>
+    <button id="button1">好的，了解。</button>
+    <script>
+        document.getElementById("button1").addEventListener("click", function () {
+            window.alert("感谢访问。您可以留下联系方式或者关闭网页");
+            // window.open('', '_self').close();
+
+        });
+        // function close() {
+        //     if (confirm("确定离开本页面")) {
+        //         window.opener = null;
+        //         window.open('', 'self');
+        //         window.close;
+        //     } else {
+        //     }
+        // }
+    </script>
+
+</body>
+
+</html>
